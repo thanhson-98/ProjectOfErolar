@@ -1,0 +1,11 @@
+G:\ProjectOfErolar\ProjectBank\Bankv1\bin\Debug\netcoreapp2.1\Bankv1.deps.json
+G:\ProjectOfErolar\ProjectBank\Bankv1\bin\Debug\netcoreapp2.1\Bankv1.runtimeconfig.json
+G:\ProjectOfErolar\ProjectBank\Bankv1\bin\Debug\netcoreapp2.1\Bankv1.runtimeconfig.dev.json
+G:\ProjectOfErolar\ProjectBank\Bankv1\bin\Debug\netcoreapp2.1\Bankv1.dll
+G:\ProjectOfErolar\ProjectBank\Bankv1\bin\Debug\netcoreapp2.1\Bankv1.pdb
+G:\ProjectOfErolar\ProjectBank\Bankv1\obj\Debug\netcoreapp2.1\Bankv1.csprojAssemblyReference.cache
+G:\ProjectOfErolar\ProjectBank\Bankv1\obj\Debug\netcoreapp2.1\Bankv1.csproj.CoreCompileInputs.cache
+G:\ProjectOfErolar\ProjectBank\Bankv1\obj\Debug\netcoreapp2.1\Bankv1.AssemblyInfoInputs.cache
+G:\ProjectOfErolar\ProjectBank\Bankv1\obj\Debug\netcoreapp2.1\Bankv1.AssemblyInfo.cs
+G:\ProjectOfErolar\ProjectBank\Bankv1\obj\Debug\netcoreapp2.1\Bankv1.dll
+G:\ProjectOfErolar\ProjectBank\Bankv1\obj\Debug\netcoreapp2.1\Bankv1.pdb
