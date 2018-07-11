@@ -1,6 +1,7 @@
 using System;
 using MySql.Data.MySqlClient;
 using System.Collections.Generic;
+using System.Data;
 
 namespace Bankv1.model
 {
@@ -33,13 +34,20 @@ namespace Bankv1.model
         {
             if (_connection == null)
             {
-                var connString = string.Format("Server={0}; database={1};UID={2}; password={3};persistsecurityinfo{4};port={5};SslMode={6}",ServerName,DatabaseName,Uid,Password,PersistSecurityInfo,ServerPort,SslMode);
+                var connString = string.Format("Server={0}; database={1};UID={2}; password={3};persistsecurityinfo{4};port={5};SslMode={6}", ServerName, DatabaseName, Uid, Password, PersistSecurityInfo, ServerPort, SslMode);
                 _connection = new MySqlConnection(connString);
                 _connection.Open();
             }
-            else if(Connection.State == ConnectionState.Clo){
+            else if (Connection.State == ConnectionState.Closed)
+            {
                 Connection.Open();
             }
+        }
+
+        public void CloseConnection()
+        {
+            if(_connection != null && _connection.State == ConnectionState.Open)
+            _connection.Close();
         }
     }
 }

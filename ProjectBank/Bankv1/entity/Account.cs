@@ -11,19 +11,20 @@ namespace Bankv1.entity
             ACTIVE = 1,
             LOCKED = 2
         }
-        private string _username { get; set; }
-        private string _password { get; set; }
-        private string _confirmPassword { get; set; }
-        private string _salt { get; set; }
-        private string _accountNumber { get; set; } // Số tài khoản
-        private string _identityCard { get; set; } //chứng minh nhân dân
-        private decimal _balance { get; set; } //số dư
-        private string _phone { get; set; }
-        private string _email { get; set; }
-        private string _fullName { get; set; }
-        private string _createdAt { get; set; }
-        private string _updateAt { get; set; }
-        private ActiveStatus _status { get; set; }
+        
+        public string _username { get; set; }
+        public string _password { get; set; }
+        public string _confirmPassword { get; set; }
+        public string _salt { get; set; }
+        public string _accountNumber { get; set; } // Số tài khoản
+        public string _identityCard { get; set; } //chứng minh nhân dân
+        public decimal _balance { get; set; } //số dư
+        public string _phone { get; set; }
+        public string _email { get; set; }
+        public string _fullName { get; set; }
+        public string _createdAt { get; set; }
+        public string _updateAt { get; set; }
+        public ActiveStatus _status { get; set; }
 
         public void GenerateAccountNumber()
         {
